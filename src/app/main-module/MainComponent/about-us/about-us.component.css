@@ -1,0 +1,121 @@
+/* header */
+#header{
+    background: rgb(155,155,155) top/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+@media (min-width: 991.98px) {
+    .facts {
+        position: relative;
+        margin-top: -75px;
+        z-index: 1;
+    }
+}
+
+
+.btn1{
+    margin: -4px;
+    background-color:#008DA9;
+}
+.btn:hover{
+    background-color:  rgb(255, 193, 7,0.5); 
+}
+.btn2{
+    background-color: black;
+}
+
+
+/* about us  */
+.about-us{
+    background-color: rgb(220,237,242);
+}
+.about-heading{
+    line-height: inherit;
+}
+/* about us  */
+
+
+
+/* apraoch  */
+.approach-h6{
+    border-bottom: 3px solid   rgb(255, 193, 7,0.5);
+    height: 50px;
+    width: 100px;
+}
+.approach-h2{
+    color: rgb(255, 193, 7,0.5);
+    
+}
+.approach-h5{
+    color: rgb(255, 193, 7,0.5);
+
+}
+/* apraoch  */
+
+
+/* choose start  */
+.chooseContainer{
+    background-color:  rgb(255, 193, 7,0.5);
+}
+.chooseh5{
+    color:  white;
+}
+
+
+/* choose end */
+
+
+/* contracting  */
+.contract-h6{
+    color:  rgb(255, 193, 7,0.5);
+}
+.contract-p{
+    color: rgb(178,178,178);
+    text-decoration: none;
+}
+.btn-discover{
+    background-color:  rgb(255, 193, 7,0.5);
+}
+
+
+/* contracting  */
+
+
+
+
+.row-bg{
+    background-color:  rgb(255, 193, 7,0.5);
+    /* display: block; */
+    border-radius: 30px 0 0 30px;
+
+}
+
+
+
+
+.image{
+    border-bottom: 2px solid black;
+    width: 500px;    
+}
+.darkYellow{
+    background-color: #FFD300;
+}
+
+
+.lightYellow{
+    background-color: rgb(255, 193, 7,0.5);
+    
+
+}
+.btnAbout{
+    background-color: rgb(255, 193, 7,0.5);
+    color: rgb(178,178,178);
+    
+
+}

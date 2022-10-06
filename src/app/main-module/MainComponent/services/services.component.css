@@ -1,0 +1,161 @@
+/* header */
+#header{
+    background-image: url('../../../../assets/mainS.jpg');
+    height: 750px;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+@media (min-width: 991.98px) {
+    .facts {
+        position: relative;
+        margin-top: -75px;
+        z-index: 1;
+    }
+}
+
+
+.btn1{
+    margin: -4px;
+    background-color:#008DA9;
+}
+.btn:hover{
+    background-color: #0066b2;
+}
+.btn2{
+    background-color: black;
+}
+
+/* services  */
+.service{
+    background-color: rgb(255, 193, 7,0.5);
+    color: rgb(139,139,139);
+}
+.service-h3{
+    color: #6EC1E4;
+}
+/* services  */
+
+
+/* benefit service  */
+.benefits-h6{
+    color: rgb(41,164,194);
+}
+i{
+    color: rgb(1,141,169);
+}
+/* benefit service end */
+
+
+/* form  */
+.form-home{
+    background-color: rgb(255, 193, 7,0.5);
+}
+.form-home2{
+    background-color: rgb(212,211,211);
+}
+.btn-form{
+    color: rgb(57,145,169);
+}
+/* form  */
+
+
+
+/* Card Css */
+.card {
+    margin: 30px auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+  /* Card Css */
+  
+
+/******************* Timeline Demo - 2 *****************/
+.main-timeline2{padding-top:50px;overflow:hidden;position:relative}
+.main-timeline2:before{content:"";width:7px;height:100%;background:black;margin:0 auto;position:absolute;top:80px;left:0;right:0}
+.main-timeline2 .timeline{width:50%;float:left;padding:20px 60px;border-top:7px solid black;border-right:7px solid black;border-radius:0 30px 0 0;position:relative;right:-3.5px}
+.main-timeline2 .icon{display:block;width:50px;height:50px;line-height:50px;border-radius:50%;background:rgb(255, 193, 7);border:1px solid #fff;text-align:center;font-size:25px;color:#fff;box-shadow:0 0 0 2px rgb(255, 193, 7);position:absolute;top:-30px;left:0}
+.main-timeline2 .timeline-content{display:block;padding:30px 10px 10px;border-radius:20px;background:rgb(255, 193, 7);color:#fff;position:relative}
+.main-timeline2 .timeline-content:hover{text-decoration:none;color:#fff}
+.main-timeline2 .timeline-content:after,.main-timeline2 .timeline-content:before{content:"";display:block;width:10px;height:50px;border-radius:10px;background:rgb(255, 193, 7);border:1px solid #fff;position:absolute;top:-35px;left:50px}
+.main-timeline2 .timeline-content:after{left:auto;right:50px}
+.main-timeline2 .title{font-size:24px;margin:0}
+.main-timeline2 .description{font-size:15px;letter-spacing:1px;margin:0 0 5px}
+.main-timeline2 .timeline:nth-child(2n){border-right:none;border-left:7px solid black;border-radius:30px 0 0;right:auto;left:-3.5px}
+.main-timeline2 .timeline:nth-child(2n) .icon{left:auto;right:0;box-shadow:0 0 0 2px rgb(255, 193, 7)}
+.main-timeline2 .timeline:nth-child(2){margin-top:130px}
+.main-timeline2 .timeline:nth-child(odd){margin:-130px 0 30px}
+.main-timeline2 .timeline:nth-child(even){margin-bottom:80px}
+.main-timeline2 .timeline:first-child,.main-timeline2 .timeline:last-child:nth-child(even){margin:0 0 30px}
+.main-timeline2 .timeline:nth-child(2n) .icon,.main-timeline2 .timeline:nth-child(2n) .timeline-content,.main-timeline2 .timeline:nth-child(2n) .timeline-content:after,.main-timeline2 .timeline:nth-child(2n) .timeline-content:before{background:rgb(255, 193, 7)}
+.main-timeline2 .timeline:nth-child(3n) .icon,.main-timeline2 .timeline:nth-child(3n) .timeline-content,.main-timeline2 .timeline:nth-child(3n) .timeline-content:after,.main-timeline2 .timeline:nth-child(3n) .timeline-content:before{background:rgb(255, 193, 7)}
+.main-timeline2 .timeline:nth-child(3n) .icon{box-shadow:0 0 0 2px rgb(255, 193, 7)}
+.main-timeline2 .timeline:nth-child(4n) .icon,.main-timeline2 .timeline:nth-child(4n) .timeline-content,.main-timeline2 .timeline:nth-child(4n) .timeline-content:after,.main-timeline2 .timeline:nth-child(4n) .timeline-content:before{background:rgb(255, 193, 7)}
+.main-timeline2 .timeline:nth-child(4n) .icon{box-shadow:0 0 0 2px rgb(255, 193, 7)}
+@media only screen and (max-width:767px){.main-timeline2:before{left:0;right:auto}
+.main-timeline2 .timeline,.main-timeline2 .timeline:nth-child(even),.main-timeline2 .timeline:nth-child(odd){width:100%;float:none;padding:20px 30px;margin:0 0 30px;border-right:none;border-left:7px solid black;border-radius:30px 0 0;right:auto;left:0}
+.main-timeline2 .icon{left:auto;right:0}
+}
+@media only screen and (max-width:480px){.main-timeline2 .title{font-size:18px}
+}
+/******************* Timeline Demo - 2 *****************/
+
+/* Clients */
+.clients:hover{
+  box-shadow: 0.4rem 0.4rem 0.4rem 0.1rem #0003;
+  transition: all .3s linear;
+}
+/* Clients */
